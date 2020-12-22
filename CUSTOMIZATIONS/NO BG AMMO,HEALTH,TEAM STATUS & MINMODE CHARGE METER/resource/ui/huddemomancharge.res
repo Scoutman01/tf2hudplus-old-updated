@@ -1,0 +1,53 @@
+"Resource/UI/HudDemomanCharge.res"
+{   
+    "ChargeMeter"
+    {   
+        "ControlName"   "ContinuousProgressBar"
+        "fieldName"     "ChargeMeter"
+        "font"          "Default"
+        "xpos"          "10"
+        "ypos"          "9"
+        "zpos"          "2"
+        "wide"          "121"
+        "tall"          "7"     
+        "autoResize"    "0"
+        "pinCorner"     "0"
+        "visible"       "1"
+        "enabled"       "1"
+        "textAlignment" "Left"
+        "dulltext"      "0"
+        "brighttext"    "0"
+        "fgcolor_override"      "White"
+    }
+    "ChargeMeterLabel"
+    {
+        "ControlName"           "CExLabel"
+        "fieldName"             "ChargeMeterLabel"
+        "xpos"                  "-5"
+        "ypos"                  "0"
+        "ypos_minmode"          "-3"
+        "zpos"                  "3"
+        "wide"                  "150"
+        "tall"                  "30"
+        "autoResize"            "1"
+        "pinCorner"             "2"
+        "visible"               "0"
+        "enabled"               "0"
+        "tabPosition"           "0"
+        "labelText"             "PIPE"
+        "textAlignment"         "center"
+        "dulltext"              "0"
+        "brighttext"            "0"
+        "fgcolor_override"      "Black"
+    }
+    "Background"
+    {
+        "ControlName"       "CTFImagePanel"
+        "fieldName"     "Background"
+        "wide"          "0"
+        "tall"          "0"
+        "visible"       "0"
+        "enabled"       "0"
+ 
+    }
+}

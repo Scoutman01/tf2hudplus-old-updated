@@ -1,0 +1,3 @@
+res files go in resource\ui
+
+removes class statistics and duel leaderboards from the loading screen

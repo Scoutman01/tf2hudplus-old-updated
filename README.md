@@ -1,4 +1,4 @@
-# TF2HUD-old-updated
+# TF2HUDplus-old-updated
 
 TF2HudPlus was created in November 2013 based on IVHUD (Improved Vanilla HUD).
 

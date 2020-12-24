@@ -6,8 +6,9 @@ TF2HUD+ Old is a hud  made by Snowshoe, and updated by Hypnotize for the Jungle 
  
 In the customizations folder you have access to optional features.
 
-You can also found the latest version of TF2HUD+ here
-Original TFTV post
+[latest version of TF2HUD+ by Snowshoe](https://huds.tf/site/s-TF2HudPlus)
+
+[Original TFTV post](https://www.teamfortress.tv/14646/tf2hud)
 
 [Original description (archive)](https://web.archive.org/web/20141122102353/http://steamcommunity.com/groups/tf2hudplus/discussions/0/620695877310642890) 
 

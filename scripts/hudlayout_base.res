@@ -905,6 +905,7 @@
         "enabled"               "1"
         "xpos"                  "c-150"
         "ypos"                  "215"
+	"zpos"			"999"
         "wide"                  "300"
         "tall"                  "300"
     }
@@ -916,6 +917,7 @@
         "enabled"               "1"
         "xpos"                  "c-225"
         "ypos"                  "250"
+	"zpos"			"999"
         "wide"                  "450"
         "tall"                  "218"
     }

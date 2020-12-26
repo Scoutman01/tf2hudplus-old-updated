@@ -46,7 +46,7 @@
         "xpos"                  "5"
         "ypos"                  "0"
         "zpos"                  "2"
-        "wide"                  "35"
+        "wide"                  "40"
         "tall"                  "20"
         "autoResize"            "1"
         "pinCorner"             "2"

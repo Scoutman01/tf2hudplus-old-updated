@@ -77,7 +77,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"border_minmode"		"ComboBoxBorder"
+		"border"		"ComboBoxBorder"
 	}		
 
 	"ChargeMeter1"

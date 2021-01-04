@@ -63,6 +63,9 @@ Scheme
 		//Changed black to a NTSC safe color
 		"GreenSolid"		 "76 107 34 255"
 		
+		"Overheal"         "0 255 0 255"
+        	"Damaged"           "255 215 0 255"
+		
 		"Black"				"46 43 42 255"
 		"TransparentBlack"	"0 0 0 196"
 		"TransparentLightBlack"	"0 0 0 90"

@@ -59,7 +59,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"			"PlayerStatusHealthValueSpecT"
-		"xpos"				"23"
+		"xpos"				"25"
 		"ypos"				"13"
 		"zpos"				"5"
 		"wide"				"30"
@@ -75,7 +75,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"			"PlayerStatusHealthValueSpecShadowT"
-		"xpos"				"24"
+		"xpos"				"26"
 		"ypos"				"14"
 		"zpos"				"5"
 		"wide"				"30"

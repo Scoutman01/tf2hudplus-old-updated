@@ -1,3 +1,0 @@
-hudplayerhealth.res goes in resource\ui
-
-can also be used in conjunction with disabled "LOW HP AMMO INDICATOR".

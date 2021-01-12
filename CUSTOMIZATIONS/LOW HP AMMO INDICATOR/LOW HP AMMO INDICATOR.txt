@@ -1,3 +1,0 @@
-hudanimations_tf.txt goes in scripts\
-
-when you are low on ammo or health the numbers will flash a red color

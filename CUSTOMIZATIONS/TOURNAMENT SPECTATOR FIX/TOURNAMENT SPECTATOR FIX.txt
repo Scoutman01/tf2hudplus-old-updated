@@ -1,3 +1,0 @@
-spectatortournament.res goes in resource\ui
-
-fixes cut-off on 4:3 resolutions. 16:9 does not need this fix

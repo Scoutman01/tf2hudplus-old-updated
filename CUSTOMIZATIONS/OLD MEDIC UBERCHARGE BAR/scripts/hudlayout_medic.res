@@ -1,0 +1,14 @@
+"Resource/HudLayout.res"
+{    
+    HudMedicCharge
+	{
+		"fieldName"		"HudMedicCharge"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"c-104"	[$WIN32]
+		"ypos"			"c95"	[$WIN32]
+		"wide"			"300"
+		"tall"			"120"
+	}
+}
+

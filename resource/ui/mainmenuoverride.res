@@ -1,4 +1,5 @@
 #base "../../default_hudfiles/resource/ui/mainmenuoverride.res"
+#base "../../resource/extras/console_button.res"
 #base "../../resource/extras/preload.res"
 
 "Resource/UI/MainMenuOverride.res"

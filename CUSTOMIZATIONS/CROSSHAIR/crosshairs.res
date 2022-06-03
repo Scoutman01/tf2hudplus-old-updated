@@ -45,6 +45,8 @@
 		
 		"xpos"		"cs-0.4999"
 		"ypos"		"cs-0.4990"
+		"ypos_minmode"		"cs-0.5360" // cause by the ypos_minmode "18" in hudplayerclass
+		
 		"wide"		"f0"
 		"tall"		"f0"
 		

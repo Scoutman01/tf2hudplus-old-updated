@@ -914,7 +914,7 @@
         "enabled"               "1"
         "xpos"                  "c-150"
         "ypos"                  "215"
-		"zpos"					"999"
+		"zpos"					"4"
         "wide"                  "300"
         "tall"                  "300"
     }
@@ -1522,6 +1522,22 @@
 		"zpos"					"3"
 		"wide"					"f0"
 		"tall"					"f0"
+	}
+	
+	"CurrencyStatusPanel"
+	{
+		"ControlName"		"CCurrencyStatusPanel"
+		"fieldName"			"CurrencyStatusPanel"
+		"xpos"				"0"
+		"ypos"				"r100"
+		"wide"				"100"
+		"tall"				"100"
+		"xpos_minmode"		"65"
+		"ypos_minmode"		"r88"
+		"visible" 			"0"
+		"enabled" 			"1"
+		
+		"PaintBackgroundType"	"2"
 	}
 }
 

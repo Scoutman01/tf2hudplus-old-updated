@@ -926,7 +926,7 @@
         "enabled"               "1"
         "xpos"                  "c-225"
         "ypos"                  "250"
-		"zpos"					"999"
+		"zpos"					"4"
         "wide"                  "450"
         "tall"                  "218"
     }

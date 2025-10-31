@@ -5,7 +5,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ConsoleButton"
 		"xpos"			"c-110"
-		"ypos"			"190"
+		"ypos"			"191"
 		"zpos"			"1"
 		"wide"			"75"
 		"tall"			"15"

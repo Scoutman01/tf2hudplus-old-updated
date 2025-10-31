@@ -7,7 +7,7 @@
 	
 	"FriendsContainer"
 	{
-		"ypos"			"269"
+		"ypos"			"220"
 		
 		"SteamFriendsList"
 		{
@@ -27,7 +27,7 @@
 	
 	"RankBorder"
 	{
-		"tall"			"177"
+		"tall"			"116"
 		"proportionaltoparent"	"0"
 	}
 	
@@ -39,18 +39,7 @@
 	
 	"EventPromo"
 	{
-		"xpos"			"c-290"
-		"ypos"			"179"
-		
-		"Background"
-		{
-			"border"		""
-
-			"TitleLabel"
-			{
-				"xpos"			"12"
-				"ypos"			"6"
-			}
-		}
+		"wide"			"0"
+		"tall"			"0"
 	}
 }

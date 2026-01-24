@@ -1,12 +1,12 @@
-"Resource/UI/HudItemEffectMeter_Scout.res"
+"Resource/UI/HudItemEffectMeter_Demoman.res"
 {
-	HudItemEffectMeter
+    HudItemEffectMeter
     {
         "fieldName"     "HudItemEffectMeter"
         "visible"       "1"
         "enabled"       "1"
-        "xpos"          "c105"  [$WIN32] //c-190
-        "ypos"          "c80"  [$WIN32]   //c125 c143
+        "xpos"          "c-68"  [$WIN32]
+        "ypos"          "c85"  [$WIN32]
         "xpos_minmode"  "r90"
         "ypos_minmode"  "r30"
         "wide"          "140"
@@ -21,8 +21,8 @@
         "xpos"          "0"
         "ypos"          "5"
         "ypos_minmode"  "0"
-        "zpos"          "0"
-        "wide"          "90"
+        "zpos"          "-1"
+        "wide"          "137"
         "wide_minmode"  "80"
         "tall"          "22"
         "tall_minmode"  "20"
@@ -54,7 +54,7 @@
         "zpos"                  "2"
         "wide"                  "150"
         "tall"                  "30"
-        "wide_minmode"          "40"
+        "wide_minmode"          "35"
         "tall_minmode"          "20"
         "autoResize"            "1"
         "pinCorner"             "2"
@@ -95,7 +95,7 @@
     {
         "ControlName"   "CExLabel"
         "fieldName"     "ItemEffectMeterCount"
-        "xpos"          "28"
+        "xpos"          "50"
         "xpos_minmode"  "45"
         "ypos"          "7"
         "ypos_minmode"  "1"
@@ -121,7 +121,7 @@
     {
         "ControlName"   "CExLabel"
         "fieldName"     "ItemEffectMeterCountShadow"
-        "xpos"          "29"
+        "xpos"          "51"
         "xpos_minmode"  "46"
         "ypos"          "8"
         "ypos_minmode"  "2"
@@ -157,5 +157,5 @@
         "enabled"       "1"
         "image"         "../vgui/replay/thumbnails/ico_eyelander"
         "scaleImage"    "1"
-    }	
+    }
 }

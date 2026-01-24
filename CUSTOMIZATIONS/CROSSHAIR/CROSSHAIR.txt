@@ -1,0 +1,9 @@
+hudlayout.res goes in scripts\
+
+TF2Hud+ uses the crosshair settings in multiplayer options, however you can override this and enable a permanent hud crosshair through this customization.
+
+By default this HUD crosshair uses a TF2-styled one. If you want to change the crosshair, use the corresponding number/letter in crosshairs.png for the crosshair you want, and change the "labelText" value in hudlayout.res under the xHair section. You can also add an outline to the crosshair to help make it more visible by changing the "font" value to xHairOutline. The crosshair color is configurable just like the spectator colors, with a custom RGBA value.
+
+If the crosshair you want isn't aligned or sized properly, you will have to manually change the xpos, ypos, wide and tall values until it is how you want. The TF2-styled HUD crosshair is centered perfectly out of the box, using the default crosshair as a reference.
+
+To import an entirely new set of crosshairs from another HUD, see this tutorial: http://www.youtube.com/watch?v=wPH6On2F0Pw

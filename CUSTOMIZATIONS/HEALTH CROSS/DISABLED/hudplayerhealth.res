@@ -75,10 +75,10 @@
     {
         "ControlName"   "ImagePanel"
         "fieldName"     "PlayerStatusHealthBonusImage"
-        "xpos"          "250"   // "9999" to disable health cross
-        "ypos"          "140"   // "9999" to disable health cross
-        "xpos_minmode"  "260"   // "9999" to disable health cross
-        "ypos_minmode"  "150"   // "9999" to disable health cross
+        "xpos"          "9999"   // "9999" to disable health cross
+        "ypos"          "9999"   // "9999" to disable health cross
+        "xpos_minmode"  "9999"   // "9999" to disable health cross
+        "ypos_minmode"  "9999"   // "9999" to disable health cross
         "zpos"          "2"
         "wide"          "60"
         "tall"          "60"

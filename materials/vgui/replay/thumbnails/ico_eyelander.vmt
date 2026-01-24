@@ -1,12 +1,10 @@
 "UnlitGeneric"
 {
-        "$translucent" "1"
-        "$baseTexture" "../materials/vgui/replay/thumbnails/ico_eyelander"
-        "$alpha" "1"
-        "$vertexalpha" "1"     
-        "$vertexcolor" "1"
-        "$no_fullbright" "1"
-        "$ignorez" "1"
-        "%keywords" "tf"
+	"$baseTexture" "vgui\replay\thumbnails\ico_eyelander"
+	"$vertexalpha" 1
+	"$no_fullbright" 1
+	"$ignorez" 1
+	"%keywords" "tf"
+	"$translucent" 1
 }
 

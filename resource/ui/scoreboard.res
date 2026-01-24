@@ -17,13 +17,13 @@
         "visible"       "1"
         "enabled"       "1"
         "tabPosition"		"0"
-		"medal_width"		"20"
+		"medal_width"		"12"
 		"avatar_width"		"57"
 		"spacer"			"2"
 		"name_width"		"85"
 		"nemesis_width"		"15"
 		"class_width"		"15"
-		"score_width"		"30"
+		"score_width"		"20"
 		"ping_width"		"20"
 		"killstreak_width"	"12"
 		"killstreak_image_width" "12"
@@ -101,10 +101,10 @@
             "tall"          "448"
         }
     }                           
-    "BlueTeamLabels"
+    "BlueTeamLabel"
     {
         "ControlName"       "CExLabel"
-        "fieldName"     "BlueTeamLabels"
+        "fieldName"     "BlueTeamLabel"
         "font"          "ScoreboardTeamNameLarge"
         "labelText"     "%blueteamname%"
         "textAlignment"     "west"
@@ -200,10 +200,10 @@
             "visible"       "0"
         }
     }                           
-    "RedTeamLabels"
+    "RedTeamLabel"
     {
         "ControlName"       "CExLabel"
-        "fieldName"     "RedTeamLabels"
+        "fieldName"     "RedTeamLabel"
         "font"          "ScoreboardTeamNameLarge"
         "labelText"     "%redteamname%"
         "textAlignment"     "east"
@@ -524,147 +524,6 @@
             "visible"       "1"
         }
     }
-	"classmodelpanel"
-	{
-		"ControlName"	"CTFPlayerModelPanel"
-		"fieldName"		"classmodelpanel"
-		
-		"xpos"			"-10"
-		"ypos"			"185"
-		"zpos"			"10"		
-		"wide"			"130"
-		"tall"			"260"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		
-		"render_texture"	"0"
-		"fov"			"12"
-		"allow_rot"		"1"
-
-		"disable_speak_event"	"1"
-
-		if_mvm
-		{
-			"visible"		"0"
-		}
-				
-		"model"
-		{
-			"force_pos"	"1"
-
-			"angles_x" "0"
-			"angles_y" "172"
-			"angles_z" "0"
-			"origin_x" "200"
-			"origin_y" "0"
-			"origin_z" "-60"
-			"frame_origin_x"	"0"
-			"frame_origin_y"	"0"
-			"frame_origin_z"	"0"
-			"spotlight" "1"
-		
-			"modelname"		""
-		}
-
-		"customclassdata"
-		{
-			"undefined"
-			{
-			}
-			"Scout"
-			{
-				"fov"			"25"
-				"angles_x"		"-17"
-				"angles_y"		"145"
-				"angles_z"		"0"
-				"origin_x"		"105"
-				"origin_y"		"4"
-				"origin_z"		"-82"
-			}
-			"Sniper"
-			{
-				"fov"			"25"
-				"angles_x"		"-10"
-				"angles_y"		"172"
-				"angles_z"		"0"
-				"origin_x"		"130"
-				"origin_y"		"-3"
-				"origin_z"		"-97"
-			}
-			"Soldier"
-			{
-				"fov"			"25"
-				"angles_x"		"-10"
-				"angles_y"		"170"
-				"angles_z"		"0"
-				"origin_x"		"145"
-				"origin_y"		"-5"
-				"origin_z"		"-90"
-			}
-			"Demoman"
-			{
-				"fov"			"25"
-				"angles_x"		"-13"
-				"angles_y"		"200"
-				"angles_z"		"0"
-				"origin_x"		"138"
-				"origin_y"		"-4"
-				"origin_z"		"-93"
-			}
-			"Medic"
-			{
-				"fov"			"20"
-				"angles_x"		"-5"
-				"angles_y"		"178"
-				"angles_z"		"0"
-				"origin_x"		"150"
-				"origin_y"		"-5"
-				"origin_z"		"-96"
-			}
-			"Heavy"
-			{
-				"fov"			"20"
-				"angles_x"		"-5"
-				"angles_y"		"200"
-				"angles_z"		"0"
-				"origin_x"		"200"
-				"origin_y"		"0"
-				"origin_z"		"-102"
-			}
-			"Pyro"
-			{
-				"fov"			"20"
-				"angles_x"		"-5"
-				"angles_y"		"172"
-				"angles_z"		"0"
-				"origin_x"		"175"
-				"origin_y"		"-5"
-				"origin_z"		"-90"
-			}
-			"Spy"
-			{
-				"fov"			"20"
-				"angles_x"		"-5"
-				"angles_y"		"160"
-				"angles_z"		"0"
-				"origin_x"		"160"
-				"origin_y"		"0"
-				"origin_z"		"-95"
-			}
-			"Engineer"
-			{
-				"fov"			"20"
-				"angles_x"		"-10"
-				"angles_y"		"168"
-				"angles_z"		"0"
-				"origin_x"		"140"
-				"origin_y"		"-2"
-				"origin_z"		"-82"
-			}
-		}
-	}
     "HorizontalLine"
     {
         "ControlName"       "ImagePanel"
@@ -709,41 +568,7 @@
 		"visible"       "1"
 		"enabled"       "1"
 		"fgcolor"       "236 227 203 255"
-		
-		if_mvm
-        {
-            "font"			"ScoreboardVerySmall"
-			"textAlignment"	"east"
-			"xpos"			"-100"
-			"ypos"			"60"
-			"wide"			"290"
-			"tall"			"20"
-			"fgcolor"		"tanlight"
-        }
-	}
-	"PlayerNameLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"PlayerNameLabel"
-		"font"			"ScoreboardMedium"
-		"labelText"		"%playername%"
-		"textAlignment"		"west"
-		"xpos"			"115"
-		"ypos"			"377"
-		"zpos"			"3"
-		"wide"			"300"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		
-		if_mvm
-		{
-			"visible"		"1"
-			"wide"			"175"
-		}
-	}	
+	}   
 		   
 
     "LocalPlayerDuelStatsPanel"
@@ -1444,6 +1269,7 @@
             "xpos"          "445"   [$WIN32]
             "ypos"          "15"    [$WIN32]
             "zpos"          "3"
+            "zpos"          "3"
             "wide"          "110"
             "autoResize"        "0"
             "pinCorner"     "0"
@@ -1467,72 +1293,6 @@
             "visible"       "1"
             "enabled"       "1"
         }
-		"SupportLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"SupportLabel"
-			"font"			"ScoreboardVerySmall"
-			"labelText"		"#TF_Scoreboard_Support"
-			"textAlignment"	"north-east"
-			"xpos"			"445"
-			"ypos"			"25"
-			"zpos"			"3"
-			"wide"			"110"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-		}
-		"Support2"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Support2"
-			"font"			"ScoreboardVerySmall"
-			"labelText"		"%support%"
-			"textAlignment"	"north-west"
-			"xpos"			"560"
-			"ypos"			"25"
-			"zpos"			"3"
-			"wide"			"35"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-		}
-		"DamageLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"DamageLabel"
-			"font"			"ScoreboardVerySmall"
-			"labelText"		"#TF_Scoreboard_Damage"
-			"textAlignment"	"north-east"
-			"xpos"			"445"
-			"ypos"			"35"
-			"zpos"			"3"
-			"wide"			"110"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-		}
-		"Damage2"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Damage2"
-			"font"			"ScoreboardVerySmall"
-			"labelText"		"%damage%"
-			"textAlignment"	"north-west"
-			"xpos"			"560"
-			"ypos"			"35"
-			"zpos"			"3"
-			"wide"			"35"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-		}
 		
 		"Kills"
 		{

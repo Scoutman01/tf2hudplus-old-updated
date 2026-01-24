@@ -93,6 +93,7 @@ event HudLowAmmoPulseStop
 
 //===========================================
 
+
 event HudSpyDisguiseChanged
 {
 	Animate PlayerStatusSpyOutlineImage		Alpha		"200"			Linear 0.0 0.2
@@ -125,18 +126,6 @@ event HudMedicChargedStop
     StopEvent HudMedicChargedLoop 0.0
 
     Animate ChargeMeter     FgColor     "TanLight"      Linear 0.0 0.0001
-}
-
-//===========================================
-
-event CompetitiveGame_LowerChatWindow
-{
-}
-event CompetitiveGame_RestoreChatWindow
-{
-}
-event HudTournament_MoveChatWindow
-{
 }
 
 //===========================================

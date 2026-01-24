@@ -111,7 +111,7 @@
         "fgcolor"       "TransparentBlack"
         "xpos"          "56"
         "ypos"          "9"
-        "ypos_minmode"  "4" //3
+        "ypos_minmode"  "4"
         "zpos"          "7"
         "wide"          "40"
         "tall"          "27"

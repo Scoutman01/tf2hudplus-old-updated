@@ -4,7 +4,7 @@
     {
         "controlName"   "CExLabel"
         "fieldName"     "xHair"
-        "visible"       "0" // set to 1 to enable hud crosshair
+        "visible"       "1" // set to 1 to enable hud crosshair
         "enabled"       "1"
         "zpos"          "2"
 

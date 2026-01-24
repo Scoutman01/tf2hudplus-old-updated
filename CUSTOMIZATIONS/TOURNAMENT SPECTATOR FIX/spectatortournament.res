@@ -621,7 +621,6 @@
 			"fieldName"		"itemmodelpanel"
 			"use_item_rendertarget" "0"
 			"useparentbg"		"1"
-			"inventory_image_type" "1"
 		}
 		
 		"ItemLabel"
@@ -656,7 +655,7 @@
 			"tall"			"60"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"0"
+			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"south"

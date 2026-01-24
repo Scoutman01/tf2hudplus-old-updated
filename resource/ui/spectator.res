@@ -30,9 +30,9 @@
         "tall_hidef"        "30"
         "autoResize"        "0"
         "pinCorner"     "0"
-        "visible"       "0"
-        "visible_minmode"       "0"
-        "enabled"       "0"
+        "visible"       "1"
+        "visible_minmode"       "1"
+        "enabled"       "1"
         "labelText"     "Spectating..."
         "textAlignment"     "east"
     }
@@ -84,7 +84,7 @@
     {
         "ControlName"       "CExLabel"
         "fieldName"     "ReinforcementsLabel"
-        "xpos"  "c-420"
+        "xpos"  "c-300"
         "ypos"  "2"
         "ypos_hidef"    "79"
         "ypos_lodef"    "85"
@@ -97,7 +97,7 @@
         "visible"       "1"
         "enabled"       "1"
         "labelText"     "#game_respawntime_in_secs"
-        "textAlignment"     "west"
+        "textAlignment"     "center"
         "font"          "HudFontSmall"
         "fgcolor_override"  "TanLight"
     }
@@ -345,7 +345,6 @@
 			"fieldName"		"itemmodelpanel"
 			"use_item_rendertarget" "0"
 			"useparentbg"		"1"
-			"inventory_image_type" "1"
 		}
 		
 		"ItemLabel"

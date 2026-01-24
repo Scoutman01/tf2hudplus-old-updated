@@ -1,7 +1,7 @@
 "UnlitGeneric"
 {
 	"$translucent" "1"
-	"$baseTexture" "../materials/vgui/replay/thumbnails/ico_eyelander"
+	"$baseTexture" "../materials/vgui/replay/thumbnails/ico_medic"
 	"$alpha" "1"
 	"$vertexalpha" "1"     
 	"$vertexcolor" "1"
@@ -9,4 +9,3 @@
 	"$ignorez" "1"
 	"%keywords" "tf"
 }
-

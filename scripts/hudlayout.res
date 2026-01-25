@@ -130,7 +130,6 @@
 	HudMessage
     {
         //"xpos"  "9999"  // uncomment this to disable server text on screen (skial.com and other messages)
-        //"ypox"  "9999"  // uncomment this to disable server text on screen (skial.com and other messages)
     }
 
     HudVoiceStatus
@@ -158,6 +157,16 @@
         
         "text_xpos"             "58"
     }
+
+	WinPanel
+	{
+		"zpos"					"20"
+	}
+
+	ArenaWinPanel
+	{
+		"zpos"					"20"
+	}
 
     StatPanel
     {
@@ -187,6 +196,11 @@
     HudTeamGoalTournament
     {
         //"wide"                  "0"
+    }
+
+	"HudAchievementTracker"
+    {
+        "EngineerY"         "190"
     }
 
     "HudAlert"

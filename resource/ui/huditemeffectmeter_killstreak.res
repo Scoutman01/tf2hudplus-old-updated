@@ -1,135 +1,103 @@
-"Resource/UI/HudItemEffectMeter_Demoman.res"
+#base "../../default_hudfiles/resource/ui/huditemeffectmeter_killstreak.res"
+
+"Resource/UI/HudItemEffectMeter_KillStreak.res"
 {
-    HudItemEffectMeter
-    {
-        "fieldName"     "HudItemEffectMeter"
-        "visible"       "1"
-        "enabled"       "1"
-        "xpos"          "r90"
-        "ypos"          "r60"
-        "wide"          "140"
-        "tall"          "40"
-        "MeterFG"       "White"
-        "MeterBG"       "Gray"
-    }
-    "ItemEffectMeterBG"
-    {
-        "ControlName"   "CTFImagePanel"
-        "fieldName"     "ItemEffectMeterBG"
-        "xpos"          "0"
-        "ypos"          "5"
-        "ypos_minmode"  "0"
-        "zpos"          "-1"
-        "wide"          "137"
-        "wide_minmode"  "80"
-        "tall"          "22"
-        "tall_minmode"  "20"
-        "autoResize"        "0"
-        "pinCorner"     "0"
-        "visible"       "1"
-        "enabled"       "1"
-        "image"         "../hud/color_panel_brown"
-        "scaleImage"        "1"
-        "teambg_1"      "../hud/color_panel_brown"
-        "teambg_2"      "../hud/color_panel_red"
-        "teambg_2_lodef"    "../hud/color_panel_red"
-        "teambg_3"      "../hud/color_panel_blu"
-        "teambg_3_lodef"    "../hud/color_panel_blu"
-        
-        "src_corner_height"     "23"                // pixels inside the image
-        "src_corner_width"      "23"
-            
-        "draw_corner_width"     "5"             // screen size of the corners ( and sides ), proportional
-        "draw_corner_height"    "5"     
-    }
-    "ItemEffectMeterLabel"
-    {
-        "ControlName"           "CExLabel"
-        "fieldName"             "ItemEffectMeterLabel"
-        "xpos"                  "5"
-        "ypos"                  "0"
-        "zpos"                  "2"
-        "wide"                  "35"
-        "tall"                  "20"
-        "autoResize"            "1"
-        "pinCorner"             "2"
-        "visible"               "0"
-        "visible_minmode"       "1"
-        "enabled"               "1"
-        "tabPosition"           "0"
-        "labelText"             "#TF_KillStreak"
-        "textAlignment"         "center"
-        "dulltext"              "0"
-        "brighttext"            "0"
-        "fgcolor_override"      "TanLight"
-    }   
-    
-    "ItemEffectMeter"
-    {   
-        "ControlName"           "ContinuousProgressBar"
-        "fieldName"             "ItemEffectMeter"
-        "font"                  "Default"
-        "xpos"                  "21"
-        "ypos"                  "23"
-        "ypos_minmode"          "0"
-        "xpos_minmode"          "0"
-        "zpos"                  "2"
-        "wide"                  "40"
-        "wide_minmode"          "50"
-        "tall"                  "6"             
-        "autoResize"            "0"
-        "pinCorner"             "0"
-        "visible"               "0"
-        "enabled"               "0"
-        "textAlignment"         "Left"
-        "dulltext"              "0"
-        "brighttext"            "0"
-    }   
-    
-    "ItemEffectMeterCount"
-    {
-        "ControlName"   "CExLabel"
-        "fieldName"     "ItemEffectMeterCount"
-        "xpos"          "45"
-        "ypos"          "1"
-        "zpos"          "2"
-        "wide"          "30"
-        "tall"          "20"
-        "tall_lodef"    "28"
-        "autoResize"    "1"
-        "pinCorner"     "2"
-        "visible"       "1"
-        "enabled"       "1"
-        "tabPosition"   "0"
-        "labelText"     "%progresscount%"
-        "textAlignment" "center"
-        "dulltext"      "0"
-        "brighttext"    "0"
-        "font"          "HudFontMediumSmall"
-        "font_minmode"  "HudFontMediumSmallSecondary"
-    }
-    
-    "ItemEffectMeterCountShadow"
-    {
-        "ControlName"   "CExLabel"
-        "fieldName"     "ItemEffectMeterCountShadow"
-        "xpos"          "46"
-        "ypos"          "2"
-        "zpos"          "2"
-        "wide"          "30"
-        "tall"          "20"
-        "tall_lodef"    "28"
-        "autoResize"    "1"
-        "pinCorner"     "2"
-        "visible"       "1"
-        "enabled"       "1"
-        "tabPosition"   "0"
-        "labelText"     "%progresscount%"
-        "textAlignment" "center"
-        "dulltext"      "0"
-        "brighttext"    "0"
-        "font"          "HudFontMediumSmall"
-        "font_minmode"  "HudFontMediumSmallSecondary"
-        "fgcolor_override"  "TransparentBlack"
-    }
+	"HudItemEffectMeter"
+	{
+		"xpos"			"c-190"
+		"xpos_minmode"	"c-190"
+		"ypos"			"c150"
+		"ypos_minmode"	"c140"
+		"wide"			"60"
+		"wide_minmode"	"60"
+		"tall"			"20"
+		"tall_minmode"	"20"
+	}
+	
+	"ItemEffectMeterBG"
+	{
+		"visible"	"0"
+	}
+	
+	"ItemEffectMeterLabel"
+	{
+		"visible"	"0"
+	}
+	
+	"ItemEffectMeter"
+	{
+		"visible"	"0"
+	}
+	
+	"ItemEffectMeterCount"
+	{
+		"xpos"				"11"
+		"xpos_minmode"		"11"
+		"ypos"				"0"
+		"ypos_minmode"		"0"
+		"zpos"				"2"
+		"wide"				"40"
+		"tall"				"11"
+		"textAlignment"		"west"
+		"fgcolor"			"TanLight"
+		"font"				"HudFontSmallBold"
+		"font_minmode"		"HudFontSmallBold"
+	}
+	
+	"ItemEffectMeterCountShadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"ItemEffectMeterCount"
+		"xpos"				"12"
+		"ypos"				"1"
+		"zpos"				"2"
+		"wide"				"40"
+		"tall"				"11"
+		"pinCorner"			"2"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			"%progresscount%"
+		"textAlignment"		"west"
+		"dulltext"			"0"
+		"brighttext"		"0"
+		"font"				"HudFontSmallBold"
+		"fgcolor"			"Black"
+	}
+	
+	"ItemEffectMeterIcon"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"ItemEffectMeterIcon"
+		"xpos"				"-3"
+		"ypos"				"-3"
+		"zpos"				"2"
+		"wide"				"16"
+		"tall"				"16"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"image"					"../hud/leaderboard_streak"
+		"PaintBackgroundType"	"0"
+	}
+	
+	"ItemEffectMeterIconShadow"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"ItemEffectMeterIconShadow"
+		"xpos"				"-2"
+		"ypos"				"-2"
+		"zpos"				"2"
+		"wide"				"16"
+		"tall"				"16"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"image"					"../hud/dneg_leaderboard_streak"
+		"PaintBackgroundType"	"0"
+	}
 }

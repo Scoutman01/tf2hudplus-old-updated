@@ -5,8 +5,8 @@
         "fieldName"     "HudItemEffectMeter"
         "visible"       "1"
         "enabled"       "1"
-        "xpos"          "c-68"  [$WIN32]
-        "ypos"          "c85"  [$WIN32]
+        "xpos"          "c105"  [$WIN32]
+        "ypos"          "c80"  [$WIN32]
         "xpos_minmode"  "r90"
         "ypos_minmode"  "r30"
         "wide"          "140"
@@ -22,7 +22,7 @@
         "ypos"          "5"
         "ypos_minmode"  "0"
         "zpos"          "-1"
-        "wide"          "137"
+        "wide"          "90"
         "wide_minmode"  "80"
         "tall"          "22"
         "tall_minmode"  "20"
@@ -95,7 +95,7 @@
     {
         "ControlName"   "CExLabel"
         "fieldName"     "ItemEffectMeterCount"
-        "xpos"          "50"
+        "xpos"          "28"
         "xpos_minmode"  "45"
         "ypos"          "7"
         "ypos_minmode"  "1"
@@ -121,7 +121,7 @@
     {
         "ControlName"   "CExLabel"
         "fieldName"     "ItemEffectMeterCountShadow"
-        "xpos"          "51"
+        "xpos"          "29"
         "xpos_minmode"  "46"
         "ypos"          "8"
         "ypos_minmode"  "2"

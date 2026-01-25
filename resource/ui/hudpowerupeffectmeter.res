@@ -1,22 +1,23 @@
-"Resource/UI/HudItemEffectMeter_SodaPopper.res"
+"Resource/UI/HudItemEffectMeter.res"
 {
-    HudItemEffectMeter
-    {
-        "fieldName"     "HudItemEffectMeter"
+	HudItemEffectMeter
+	{
+		"fieldName"     "HudItemEffectMeter"
         "visible"       "1"
         "enabled"       "1"
         "xpos"          "r90"
         "ypos"          "r30"
         "xpos_minmode"  "c-70"
-        "ypos_minmode"  "c101"
+        "ypos_minmode"  "c133"
         "wide"          "140"
         "tall"          "40"
         "MeterFG"       "White"
         "MeterBG"       "Gray"
-    }
-    "ItemEffectMeterBG"
-    {
-        "ControlName"   "CTFImagePanel"
+	}
+	
+	"ItemEffectMeterBG"
+	{
+		"ControlName"   "CTFImagePanel"
         "fieldName"     "ItemEffectMeterBG"
         "xpos"          "0"
         "ypos"          "0"
@@ -40,18 +41,19 @@
         "src_corner_width"      "23"
             
         "draw_corner_width"     "5"             // screen size of the corners ( and sides ), proportional
-        "draw_corner_height"    "5"     
-    }
-    "ItemEffectMeterLabel"
-    {
-        "ControlName"           "CExLabel"
+        "draw_corner_height"    "5"				
+	}
+	
+	"ItemEffectMeterLabel"
+	{
+		"ControlName"           "CExLabel"
         "fieldName"             "ItemEffectMeterLabel"
-        "xpos"                  "5"
+        "xpos"                  "3"
         "xpos_minmode"          "-5"
         "ypos"                  "0"
         "ypos_minmode"          "-3"
         "zpos"                  "2"
-        "wide"                  "35"
+        "wide"                  "40"
         "tall"                  "20"
         "wide_minmode"          "150"
         "tall_minmode"          "30"
@@ -59,7 +61,7 @@
         "pinCorner"             "2"
         "visible"               "1"
         "enabled"               "1"
-		"enabled_minmode"      	"0"
+		"enabled_minmode"       "0"
         "tabPosition"           "0"
         "labelText"             "#TF_ENERGYDRINK"
         "textAlignment"         "center"
@@ -67,11 +69,11 @@
         "brighttext"            "0"
         "fgcolor_override"      "Tanlight"
         "fgcolor_override_minmode"      "Black"
-    }   
-    
-    "ItemEffectMeter"
-    {   
-        "ControlName"           "ContinuousProgressBar"
+	}
+
+	"ItemEffectMeter"
+	{	
+		"ControlName"           "ContinuousProgressBar"
         "fieldName"             "ItemEffectMeter"
         "font"                  "Default"
         "ypos"                  "8"
@@ -90,5 +92,5 @@
         "textAlignment"         "Left"
         "dulltext"              "0"
         "brighttext"            "0"
-    }   
+	}					
 }

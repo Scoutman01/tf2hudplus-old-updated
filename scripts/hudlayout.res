@@ -64,8 +64,8 @@
     {
         "xpos"          "c-70"
 		"xpos_minmode"  "c-70" // prevent default hud value
-        "ypos"          "c125"
-        "ypos_minmode"  "c123"
+        "ypos"          "c105"
+        "ypos_minmode"  "c111"
         "zpos"          "3"
         "wide"          "150"
 		"wide_minmode"	"150" // prevent default hud value
@@ -78,10 +78,10 @@
 		"xpos_minmode"  "c-70" // prevent default hud value
         "ypos"          "c105"
         "ypos_minmode"  "c111"
-        "wide"          "140"
-		"wide_minmode"	"140" // prevent default hud value
+		"zpos"			"4" // draw above huddemomancharge
+        "wide"          "150"
+		"wide_minmode"	"150" // prevent default hud value
         "tall"          "30"
-        "tall_minmode"  "40"
     }
 
     CHudAccountPanel
@@ -181,9 +181,9 @@
     HudDemomanPipes
     {
         "xpos"          "c-68"
-        "ypos"          "c105"
+        "ypos"          "c123"
         "xpos_minmode"  "c-68"
-        "ypos_minmode"  "c111"
+        "ypos_minmode"  "c123"
         "wide"          "140"
         "tall"          "40"
     }

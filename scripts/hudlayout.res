@@ -35,7 +35,9 @@
     HudWeaponAmmo
     {
         "xpos"  "c100"
+		"xpos_minmode"	"c100" // prevent default hud value
 		"ypos"  "c105"
+		"ypos_minmode"	"c105"  // prevent default hud value
         "wide"  "150"
         "tall"  "50"
     }
@@ -44,11 +46,14 @@
     {
         "xpos"          "c"
         "ypos"          "c"
+		"xpos_minmode"	"c" // prevent default hud value
+		"ypos_minmode"	"c" // prevent default hud value
     }
     
     HudMedicCharge
     {
         "xpos"          "c-90"
+		"xpos_minmode"  "c-90" // prevent default hud value
         "ypos"          "c125"
         "ypos_minmode"  "c123"
         "wide"          "160"
@@ -58,19 +63,23 @@
     HudDemomanCharge
     {
         "xpos"          "c-70"
+		"xpos_minmode"  "c-70" // prevent default hud value
         "ypos"          "c125"
         "ypos_minmode"  "c123"
         "zpos"          "3"
         "wide"          "150"
+		"wide_minmode"	"150" // prevent default hud value
         "tall"          "30"
     }   
 
     HudBowCharge
     {
         "xpos"          "c-70"
+		"xpos_minmode"  "c-70" // prevent default hud value
         "ypos"          "c105"
         "ypos_minmode"  "c111"
         "wide"          "140"
+		"wide_minmode"	"140" // prevent default hud value
         "tall"          "30"
         "tall_minmode"  "40"
     }
@@ -79,6 +88,7 @@
     {
         "xpos"                  "c110"
         "ypos"                  "c-30"
+		"ypos_minmode"          "c-30" // prevent default hud value
     }
     
     CHealthAccountPanel
@@ -86,6 +96,7 @@
         "xpos"                  "c-175"
         "xpos_minmode"          "c-180"
         "ypos"                  "r200"
+		"ypos_minmode"          "r200" // prevent default hud value
     }
     
     DisguiseStatus
@@ -183,4 +194,3 @@
         //"xpos_minmode"  "9999"
     }
 }
-

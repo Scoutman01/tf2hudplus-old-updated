@@ -21,7 +21,7 @@
 		"xpos"			"25"	[$WIN32]
 		"xpos_minmode"	"15"	[$WIN32]
 		"ypos"			"r88"	[$WIN32]
-		"ypos_minmode"	"r54"	[$WIN32]
+		"ypos_minmode"	"r46"	[$WIN32]
 		"xpos"			"57"	[$X360]
 		"ypos"			"r110"	[$X360]
 		"zpos"			"2"
@@ -41,7 +41,7 @@
 		"xpos"			"3"		[$WIN32]
 		"xpos_minmode"	"-5"	[$WIN32]
 		"ypos"			"r67"	[$WIN32]
-		"ypos_minmode"	"r44"	[$WIN32]
+		"ypos_minmode"	"r36"	[$WIN32]
 		"xpos"			"35"	[$X360]
 		"ypos"			"r89"	[$X360]
 		"zpos"			"2"
@@ -161,58 +161,6 @@
 			"spotlight" "1"
 		
 			"modelname"		""
-			
-			"animation"
-			{
-				"name"		"PRIMARY"
-				"activity"	"ACT_MP_STAND_PRIMARY"
-				"default"	"1"
-			}
-			"animation"
-			{
-				"name"		"SECONDARY"
-				"activity"	"ACT_MP_STAND_SECONDARY"
-			}
-			"animation"
-			{
-				"name"		"MELEE"
-				"activity"	"ACT_MP_STAND_MELEE"
-			}
-			"animation"
-			{
-				"name"		"BUILDING"
-				"activity"	"ACT_MP_STAND_BUILDING"
-			}
-			"animation"
-			{
-				"name"		"PDA"
-				"activity"	"ACT_MP_STAND_PDA"
-			}
-			"animation"
-			{
-				"name"		"ITEM1"
-				"activity"	"ACT_MP_STAND_ITEM1"
-			}						
-			"animation"
-			{
-				"name"		"ITEM2"
-				"activity"	"ACT_MP_STAND_ITEM2"
-			}									
-			"animation"
-			{
-				"name"		"MELEE_ALLCLASS"
-				"activity"	"ACT_MP_STAND_MELEE_ALLCLASS"
-			}
-			"animation"
-			{
-				"name"		"PRIMARY2"
-				"activity"	"ACT_MP_STAND_PRIMARY"
-			}
-			"animation"
-			{
-				"name"		"SECONDARY2"
-				"activity"	"ACT_MP_STAND_SECONDARY2"
-			}
 		}
 
 		"customclassdata"
@@ -334,38 +282,133 @@
 			}
 		}
 	}
-		"Hitmarker1"
+
+	"CarryingWeapon"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"Hitmarker1"
-		"font"			"HudFontGiant"
-		"fgcolor"		"TanLight"
-		"xpos"			"c-0"
-		"ypos"			"c-6"
-		"ypos_minmode"			"c-23"
-		"zpos"			"0"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"south-east"	
-		"labelText"		"-"
-	}
-	"Hitmarker2"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"Hitmarker2"
-		"font"			"HudFontGiant"
-		"fgcolor"		"TanLight"
-		"xpos"			"c-29"
-		"ypos"			"c-6"
-		"ypos_minmode"			"c-23"
-		"zpos"			"0"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"south-east"	
-		"labelText"		"-"
+		"ControlName"			"EditablePanel"
+		"fieldName"				"CarryingWeapon"
+		"xpos"					"20"
+		"xpos_minmode"			"90"
+		"ypos"					"r27"
+		"ypos_minmode"			"r36"
+		"zpos"					"100"
+		"wide"					"500"
+		"wide_minmode"			"500"
+		"tall"	 				"28"
+		"tall_minmode"	 		"28"
+
+		"CarryingBackground"
+		{
+			"ControlName"			"CTFImagePanel"
+			"fieldName"				"CarryingBackground"
+			"xpos"					"0"
+			"xpos_minmode"			"0"
+			"ypos"					"0"
+			"ypos_minmode"			"0"
+			"zpos"					"0"
+			"wide"					"p1"
+			"wide_minmode"			"f0"
+			"tall"	 				"f0"
+			"tall_minmode"			"f0"
+			"autoResize"			"0"
+			"pinCorner"				"0"
+			"visible"				"1"
+			"enabled"				"1"
+			"image"					"../hud/color_panel_brown"
+			"scaleImage"			"1"
+			"teambg_1"				"../hud/color_panel_brown"
+			"teambg_2"				"../hud/color_panel_red"
+			"teambg_2_lodef"		"../hud/color_panel_red"
+			"teambg_3"				"../hud/color_panel_blu"
+			"teambg_3_lodef"		"../hud/color_panel_blu"
+			"proportionaltoparent"	"1"
+		
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
+
+		"CarryingLabel"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"			"CarryingLabel"
+			"font"				"ReplayBrowserSmallest"
+			"font_minmode"		"TFFontMedium"
+			"xpos"				"5"
+			"xpos_minmode"		"5"
+			"ypos"				"3"
+			"ypos_minmode"		"2"
+			"zpos"				"1"
+			"wide"				"200"
+			"wide_minmode"		"f0"
+			"tall"	 			"f0"
+			"tall_minmode"		"f0"
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"1"
+			"enabled"			"1"
+			"textAlignment"		"North-West"
+			"dulltext"			"0"
+			"brighttext"		"0"
+			"proportionaltoparent"	"1"
+			"auto_wide_tocontents"	"1"
+			"labelText"			"%carrying%"
+		}
+
+		"CarryingLabelDropShadow"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"			"CarryingLabelDropShadow"
+			"font"				"ReplayBrowserSmallest"
+			"font_minmode"		"TFFontMedium"
+			"xpos"				"p0.011"
+			"xpos_minmode"		"6"
+			"ypos"				"p0.12"
+			"ypos_minmode"		"3"
+			"zpos"				"0"
+			"wide"				"200"
+			"wide_minmode"		"f0"
+			"tall"	 			"f0"
+			"tall_minmode"		"f0"
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"1"
+			"enabled"			"1"
+			"textAlignment"		"North-West"
+			"dulltext"			"0"
+			"brighttext"		"0"
+			"proportionaltoparent"	"1"
+			"auto_wide_tocontents"	"1"
+			"fgcolor_override"	"Black"
+			"labelText"			"%carrying%"
+		}
+
+		"OwnerLabel"
+		{	
+			"ControlName"		"Label"
+			"fieldName"			"OwnerLabel"
+			"font"				"FontStoreOriginalPrice"
+			"font_minmode"		"TFFontSmall"
+			"xpos"				"5"
+			"xpos_minmode"		"5"
+			"ypos"				"12"
+			"ypos_minmode"		"10"
+			"zpos"				"0"
+			"wide"				"200"
+			"wide_minmode"		"f0"
+			"tall"	 			"f0"
+			"tall_minmode"		"f0"
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"1"
+			"enabled"			"1"
+			"textAlignment"		"North-West"
+			"dulltext"			"0"
+			"brighttext"		"0"
+			"proportionaltoparent"	"1"
+			"auto_wide_tocontents"	"1"
+		}
 	}
 }

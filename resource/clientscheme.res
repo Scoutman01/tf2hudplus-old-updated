@@ -1,4 +1,5 @@
-"#base"    "../default_hudfiles/resource/clientscheme.res"
+"#base" "../default_hudfiles/resource/clientscheme.res"
+"#base" "../customizations/crosshair/crosshair_scheme.res"
 
 Scheme
 {

@@ -124,7 +124,11 @@
 
     HudDeathNotice
     {
-        "MaxDeathNotices" "6"
+        "ypos"				"30"
+		"MaxDeathNotices"	"12"
+		"IconScale"			"0.24"
+		"LineHeight"		"12"
+		"LineSpacing"		"0.5"
     }
 
 	HudMessage

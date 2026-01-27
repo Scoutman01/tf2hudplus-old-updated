@@ -1,3 +1,0 @@
-health.txt and ammo.txt goes in scripts\animations
-
-when you are low on ammo or health the numbers will flash a red color

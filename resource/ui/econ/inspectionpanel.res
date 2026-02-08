@@ -13,9 +13,7 @@
 		}
 		
 		"SeedTextEntry"
-		{
-			"maxchars"		"19"
-			
+		{	
 			"consume_mode"
 			{
 				"visible"	"1"
